@@ -80,6 +80,20 @@ nextTwo.onclick = function(){
 nextThree.onclick = function(){
   nextThree.hidden = true;
   startOver.hidden = false;
+  document.getElementById("word-one").innerHTML = 'HAP-';
+  document.getElementById("word-two").innerHTML = 'PY';
+  document.getElementById("word-three").innerHTML = 'BIRTH';
+  document.getElementById("word-four").innerHTML = 'DAY';
+  document.getElementById("word-five").innerHTML = 'TO';
+  document.getElementById("word-six").innerHTML = 'YOU!';
+
+  document.getElementById("letter-note-one").innerHTML = 'F';
+  document.getElementById("letter-note-two").innerHTML = 'F';
+  document.getElementById("letter-note-three").innerHTML = 'E';
+  document.getElementById("letter-note-four").innerHTML = 'C';
+  document.getElementById("letter-note-five").innerHTML = 'D';
+  document.getElementById("letter-note-six").innerHTML = 'C';
+  lastLyric.style.display = 'none';
 }
 
 // This is the event handler property and function for the startOver button
